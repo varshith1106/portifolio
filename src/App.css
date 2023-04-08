@@ -36,3 +36,391 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: black; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:80px;
+  margin-top: 30px;
+}
+
+li a {
+  display: block;
+  /* color:#967BDC; */
+  color:white;
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 23px;
+  text-decoration: none;
+  float:right;
+
+}
+
+li a:hover{
+  color:#191919;
+}
+.logo{
+  float:left;
+  margin-top: 5px;
+  position: relative;
+  left:70px;
+}
+.logo img{
+  width: 75px;
+  height: 75px;
+}
+
+button{
+  padding: 10px 35px ;
+  border-radius: 50px;
+  margin-top: 13px;
+  font-size: 20px;
+  background-image: linear-gradient(43deg,#4158d0,#c850c0);
+   float:right;
+   border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.35);
+    margin-left: 50px;
+    padding: 10 35px;
+    margin-right: 20px;
+    color:white;
+}
+button:hover{
+  color:#191919;
+}
+
+body{
+background-color: #4158d0;
+    background-image: linear-gradient(43deg,#4158d0,#c850c0 46%,#ffcc70);
+    height: 100vh;
+    width: 100%;
+}
+.home{
+  position: absolute;
+  top:300px;
+  left:200px;
+}
+.wave{
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  animation-name: wave-animation;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+.headtext{
+  font-size:53px;
+  font-weight: 600;
+    letter-spacing: 1px;
+    color:#191919;
+    font-family: 'Raleway', sans-serif;
+}
+.nametext{
+  font-size: 43px;
+  color:#191919;
+  font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.text h1{
+  color:white;
+  font-size: 40px;
+}
+.subtitle {
+  white-space: pre-line;
+  width: 100%;
+  overflow-wrap: break-word;
+  flex-wrap: wrap;
+  /* background-color:tomato; */
+  position: relative;
+  bottom: 23px;
+}
+.subtext{
+  font-size:43px;
+  color:#191919;
+}
+.subtext h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+  
+  .tallButton{
+    position:relative;
+    width:40px;
+    height:40px;
+    float: left;
+    background:none; 
+    background-color:transparent;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    width: 90px;
+    margin-left: 5px;
+ }
+ 
+ 
+ .tallButton img {
+   position:absolute;
+   top: 50%;
+   left:50%;
+   height:30px;
+   width:30px;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+ }
+
+ .tallButton:hover{
+  background-color: white;
+ }
+ .man_image {
+position: relative;
+left:300px;
+bottom: 100px;
+width:300px;
+height:500px;
+ }
+ 
+ .about_page{
+   background-color: #4158d0; 
+    background-image: linear-gradient(40deg,#4158d0,#c850c0 40%,#ffcc70);
+    height:650px;
+    position: relative;
+    top: 150px;
+    width:1450px;
+    left: 120px;
+    border-radius: 30px;
+ }
+ .about h1{
+padding-top: 20px;
+padding-left: 20px;
+color: #191919;
+    font-size: 2.5em;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+
+ }
+ .about{
+height:350px;
+ }
+ .about p{
+color: #191919;
+font-size: 1.5em;
+padding-left: 20px;
+font-weight: 400;
+ }
+ .about_img img{
+  margin-top: 100px;
+  padding-left: 150px;
+  width: 480px;
+  height: 350px;
+ }
+ 
+ .skill{
+  padding-left: 100px;
+  position: absolute;
+  top:370px;
+ }
+ .skill,.skill1 li{
+  font-size: 21px;
+  list-style-type: square;
+  color: #191919;
+  font-weight: 500;
+
+ }
+ .skill1{
+  padding-top: 70px;
+  position: absolute;
+  top:380px;
+  left:330px;
+ }
+ .skill h1{
+  padding-top: 20px;
+padding-left: 20px;
+color: #191919;
+    font-size: 2em;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+
+ }
+ .skill li:hover{
+  color: white;
+ }
+ .skill1 li:hover{
+  color:white;
+ }
+ .address{
+  /* background-color: #61dafb; */
+  height:180px;
+ }
+ .address1{
+  position:absolute;
+  left:300px;
+ }
+ .address_image img{
+  width:50px;
+  height:50px;
+  float:left;
+  position: absolute;
+  top:30px;
+ }
+ .address h1{
+/* background-color:wheat; */
+margin-top: 30px;
+margin-left: 80px;
+color:black;
+ }
+ .address h1:hover{
+  color: white;
+ }
+ .address h4{
+  /* background-color: #c850c0; */
+  color:black;
+  margin-top: 20px;
+margin-left: 80px;
+ }
+ .address p{
+  /* background-color: #c850c0; */
+  color:black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+margin-left: 80px;
+ }
+ .phone_image img{
+  width:50px;
+  height:50px;
+  float:left;
+  position: absolute;
+  top:30px;
+ 
+ }
+.phone{
+    /* background-color: #61dafb; */
+    height:180px;
+    position: relative;
+    top:30px;
+}
+.phone h1{
+margin-left: 80px;
+padding-top: 30px;
+/* background-color: #c850c0; */
+color:black;
+}
+.phone h1:hover{
+  color: white;
+}
+.phone p{
+  color:black;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact{
+  margin-top: 80px;
+  margin-left: 50px;
+  width:520px;
+  height: 520px;
+} 
+
+.contact_page{
+  height:550px;
+    width:950px;
+    position: relative;
+    top:210px;
+    left:350px;
+}
+.contact_heading h1{
+color:#191919;
+text-align: center;
+padding-top: 20px;
+letter-spacing: 1px;
+font-size: 4.5rem;
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
+}
+.contact_para p{
+  margin-top: 20px;
+  color:#191919;
+  text-align: center;
+  font-size: 23px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: 400;
+}
+.contact_btn{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.contact_btn button{
+  border-radius: 0%;
+  border:3px solid black;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width:200px;
+  margin: 0 auto;
+  height:55px;
+  color: black;
+  padding: 10px 10px ;
+}
+.contact_btn button:hover{
+  color:white;
+  border-color: white;
+}
+.project_page{
+  /* background-color: tomato; */
+  height:700px;
+  width:100%;
+  position: relative;
+  top:150px;
+}
+.card{
+  float: left;
+  margin-left: 70px;
+  margin-right: 50px;
+  border-radius: 10px;
+    background-color: initial;
+    border:none;
+    box-shadow: 0 4px 16px rgba(17,17,26,.1),0 8px 24px rgba(17,17,26,.1),0 16px 56px rgba(17,17,26,.1);
+    
+}
+.cards{
+  padding-top: 20px;
+}
+.card-img-top{
+  width:370px;
+  height:230px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.card-text {
+  font-size: 20px;
+}
+.project_btn{
+  border-radius: 10px;
+  border:2px solid black;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width:370px;
+  height:55px;
+  color: black;
+  padding: 10px 10px ;
+  color:white;
+  font-size: 20px;
+  background-color: initial;
+  font-weight: 500;
+}
+.project_btn:hover{
+  background-color:#c850c0 ;
+  border: none;
+}
