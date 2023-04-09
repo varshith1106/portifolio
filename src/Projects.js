@@ -5,7 +5,7 @@ const Projects=()=>{
     return (
         <div className="project_page">
         <div className="cards">
-        <div className="card" style={{width:'26em', height:'40em'}}>
+        <div className="card" style={{width:'21em', height:'30em'}}>
   <img src="https://source.unsplash.com/200x200/?coding,computer" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h4 className="card-title">A Tech-Interview x Zoom Application</h4>
@@ -15,7 +15,7 @@ const Projects=()=>{
     <a href="https://github.com/varshith1106/" className="btn btn-primary project_btn">View</a>
   </div>
 </div>
-<div className="card" style={{width:'26em', height:'40em'}}>
+<div className="card" style={{width:'21em', height:'30em'}}>
   <img src="https://source.unsplash.com/200x200/?machine learning,computer" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h4 className="card-title">Prediction of Atrial Fibrillation (AFib) using ML with API implementation</h4>
@@ -23,7 +23,7 @@ const Projects=()=>{
     <a href="https://github.com/varshith1106/" className="btn btn-primary project_btn">View</a>
   </div>
 </div>
-<div className="card" style={{width:'26em', height:'40em'}}>
+<div className="card" style={{width:'21em', height:'30em'}}>
   <img src="https://source.unsplash.com/200x200/?machine learning,artifical intelligence" className="card-img-top" alt="..."/>
   <div className="card-body">
     <h4 className="card-title">Textutile </h4>

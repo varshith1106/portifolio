@@ -9,7 +9,7 @@ import man_stand from "./images/man_stand.png";
 const Home = () => {
   return (
     <div className="row featurette home">
-      <div className="col-md-9">
+      <div className="col-md-8">
         <h1 className="headtext">
           Hello <span className="wave">👋 </span>
         </h1>
@@ -46,7 +46,7 @@ const Home = () => {
         <button type="button" className="tallButton"><img src={github}/></button>
         </a>
       </div>
-      <div className="col-md-3">
+      <div className="col-md-4">
         <img src={man_stand} className='man_image'/>
       </div>
     </div>
